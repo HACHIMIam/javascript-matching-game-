@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+    	<title> matching game</title>
+      <link href="https://fonts.googleapis.com/css?family=Barrio|Raleway" rel="stylesheet">
+
+    	<style >
+        .div{
+           position: absolute;
+            width: 500px;
+            height: 500px;
+
+        }
+    	#rightside {
+            left: 500px;
+            border-left: 3px solid black; }
+            body{
+              background: #217ac0;
+            }
+            .container {
+
+              border-style:solid;
+              width: 1000px;
+              height: 520px;
+            }
+          h1{
+            font-family: 'Barrio', cursive;
+
+          }
+          p{
+            font-family: 'Raleway', sans-serif;
+
+          }
+          #h2{
+            position: absolute;
+            top:70px;
+            left:1100px;
+            font-size: 3em;
+            color:#f95759;
+          }
+    	</style>
+    </head>
+    <body onload="start()">
+    	<h1>Matching game</h1>
+    	<p>Click on the extra smiling face on the left.</p>
+      <div class="container">
+    	<div id="leftside" class="div"></div>
+    	<div id="rightside" class="div"></div>
+    </div>
+    <h2 id="h2">Score:</h2>
+
+      <script src="script.js"></script>
+
+    </body>
+</html>
